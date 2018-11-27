@@ -167,6 +167,7 @@ TEMPLATES = [{
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = "9Uk%hVKTE7#!D0fVkOdUPOS^^*z98SjyzxDh5q^acAMEp3txS"
 
 MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
